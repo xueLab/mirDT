@@ -1,5 +1,11 @@
-#this script is written to analyze the miRNA predictor result
-#the input file should include miRNA ID, miPred result, ProMiR result, and miRPara result
+# mirDT is a decision-tree based meta-predictor for miRNA prediction by integrating
+#       the predictive results of MiPred, ProMiR and miRPara.
+# USAGE: ./mirDT.py
+#       After typing in the above-mentioned command, the user will be asked to type 
+#             in the name of inpout file.
+#       Input file is a tab-delimited file with containing miRNA_ID and its 
+#             predictive scores from miPred, ProMiR, and miRPara, respectively.
+#
 
 import math
 
